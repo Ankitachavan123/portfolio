@@ -1,0 +1,154 @@
+@import "../../global.scss";
+.about{
+    background-color:rgb(52, 174, 168);
+    font-size: large;
+    font-weight:400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.headline{
+    margin-left: 5%;
+    margin-top: 1.5%;
+    color: $mainColor;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 400;
+}
+.container1{
+    flex: 0.5;
+    display: relative;
+    .wrapper{
+        width: 70%;
+        height: 20%;
+        padding-left: 50px;
+        padding-top: 15px;
+        display: flex;
+        .icon{
+            font-size: 18px;
+            margin-right: 5px;
+        }
+        
+    }
+}
+.container2{
+    flex: 0.5;
+    display: relative;
+    .wrapper{
+        width: 70%;
+        height: 20%;
+        padding-left: 50px;
+        padding-top: 15px;
+        display: flex;
+        .icon{
+            font-size: 18px;
+            margin-right: 5px;
+        }
+        
+    }
+}
+.container3{
+    flex: 0.5;
+    display: relative;
+    .wrapper{
+        width: 70%;
+        height: 15%;
+        padding-left: 50px;
+        padding-top: 20px;
+        display: flex;
+        .icon{
+            font-size: 18px;
+            margin-right: 5px;
+        }
+        
+    }
+}
+
+.container4{
+    flex: 0.5;
+    display: relative;
+    .wrapper{
+        width: 70%;
+        height: 20%;
+        padding-left: 50px;
+        padding-top: 15px;
+        display: flex;
+        .icon{
+            font-size: 18px;
+            margin-right: 5px;
+        }
+        
+    }
+}
+
+.container5{
+    flex: 0.5;
+    display: relative;
+    .wrapper{
+        width: 70%;
+        height: 20%;
+        padding-left: 50px;
+        padding-top: 15px;
+        display: flex;
+        .icon{
+            font-size: 18px;
+            margin-right: 5px;
+        }
+        
+    }
+}
+
+// .first_language{
+//     width: "90%";
+//     padding: "24px 20px";// theme padding
+//     border: "1px solid rgba(0, 0, 0, 0.12)";
+  
+// }
+.skills{
+    text-align:right;
+    
+    .dsa{
+        button{
+            width: 15%;
+            height: 1.5cm;
+            padding: "50px 20px";
+            background-color:lightseagreen;
+            font-weight: 700;
+            font-size:medium;
+           // margin-top: 1%;
+            margin-left: 2%;
+            margin-right: 4%;
+            margin-bottom: 1%;
+            border-radius: 10%;
+        }
+    
+    }
+    .dev{
+        button{
+            width: 15%;
+            height: 1.5cm;
+            padding: "50px 20px";
+            background-color: lightseagreen;
+            font-weight: 700;
+            font-size:medium;
+            margin-top: 1.5%;
+            margin-left: 2%;
+            margin-right: 4%;
+            margin-bottom: 1%;
+            border-radius: 10%;
+        }
+    }
+    .core{
+        button{
+            width: 15%;
+            height: 1.5cm;
+            padding: "50px 20px";
+            background-color: lightseagreen;
+            font-weight: 700;
+            font-size:medium;
+            margin-top: 1.5%;
+            margin-left: 2%;
+            margin-right: 4%;
+            margin-bottom: 1%;
+            border-radius: 10%;
+        }
+    }
+   
+}

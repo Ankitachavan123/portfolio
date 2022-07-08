@@ -1,0 +1,24 @@
+.app{
+    height: 100vh;
+
+
+    .sections{
+        width: 100%;
+        height: calc(100vh - 70px);    //height of section from ending line of top bar to the whole page
+        background-color: lightsalmon;
+        position: relative;        //the text will not get hidden by top bar
+        top: 70px;                  //margin of top bar for text 
+        scroll-behavior: smooth;  //scrolling behaviour is smooth-slow
+        scroll-snap-type: y mandatory;     //if the scroll bar is at middle of 2 pages it will scroll to upper or lower page according 
+        scrollbar-width: none;  //for firefox
+        &::-webkit-scrollbar{    //to hide the scroll bar
+            display: none;
+        }
+
+        > *{
+            width: 100vw;
+            height: calc(100vh - 70px);
+            scroll-snap-align: start;
+        }
+    }
+}
