@@ -7,7 +7,7 @@ export default function about() {
       <div className="headline"><h1>About</h1></div>
          <div className="container1">
           <div className="wrapper">
-            <ArrowRight className="icon"/>I am Final Year student. Pursuing my B.Tech in Electronics and Telecommunication from MKSSS Cummins College of Engineering, Pune.
+            <ArrowRight className="icon"/>I am Final Year Student. Pursuing my B.Tech in Electronics and Telecommunication from MKSSS Cummins College of Engineering, Pune.
           </div>
           </div>
 
