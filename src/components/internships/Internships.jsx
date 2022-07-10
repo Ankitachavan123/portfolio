@@ -7,22 +7,20 @@ export default function Internships()
     id: 1,
     img: "assets/robominds_logo.png",
     information: " ROBOMINDS is a technical workshop, established for the Scientists and Engineers of tomorrow,to promote experiential learning through hands-on activities.I was working with them as an intern. I was doing mentorship to the elementary team for WRO challenge.I was also working on my seperate robot and code. I explored coding platforms like Mindstorm, Spike. Worked on EV3. Learned to build robot, developed strategies, speed up things.",
-    duration: "2 Months",
+    duration: "Duration : 2 Months",
   },
   {
     id: 2,
-    img: "assets/logo.png",
+    img: "assets/A.png",
     information: " Aadimanie Realty's is a real estate company. I was working with them as an intern.I was writing content for there website. I also had to manage the coordination with web development team. Doing reasearch about there projects, services, reviews, documentating work was my responsibilities.I have also worked as an advisor for deciding the design of a website from deciding fonts, color, structure of website etc.",
-    duration: "6 Months",
-  }
+    duration: "Duration : 6 Months",
+  },
 ];
   return (
     <div className="internships" id="internships">
         <h1>Internships</h1>
         <div className="container">
           {data.map((d)=>(
-
-         
           <div className="card">
             <div className="top">
                   <img src={d.img} alt="" />
