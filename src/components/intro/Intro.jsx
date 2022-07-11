@@ -1,10 +1,9 @@
 //import { Height } from "@material-ui/icons"
-import "./intro.scss"
+import "./intro.scss";
 import { init } from "ityped";
-//import { useEffect, useRef } from "react"
 import React, { useEffect, useState } from "react";
 
-export default function intro() {
+export default function Intro() {
 
   const TextRef = useState();  // useState is a react hook
 

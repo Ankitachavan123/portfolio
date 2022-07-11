@@ -1,11 +1,12 @@
-import "./contact.scss"
+import { useState } from "react";
+import "./contact.scss";
 
-export default function contact() {
-  const [message,setMessage] = useState(false)
+export default function Contact() {
+  const [message,setMessage] = useState(false);
 
-  const handleSubmit = (e) => {
+  const HandleSubmit = (e) => {
     e.preventDefault();
-    setMessage(true)
+    setMessage(true);
   }
 
   return (
@@ -15,7 +16,7 @@ export default function contact() {
       </div>
       <div className="right">
           <h2>Contact.</h2>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={HandleSubmit}>
             <input type="text" placeholder="Email"/>
             <textarea placeholder="Message"></textarea>
             <button type="submit">Send</button>

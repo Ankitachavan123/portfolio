@@ -7,35 +7,50 @@ export default function about() {
       <div className="headline"><h1>About</h1></div>
          <div className="container1">
           <div className="wrapper">
-            <ArrowRight className="icon"/>I am Final Year Student. Pursuing my B.Tech in Electronics and Telecommunication from MKSSS Cummins College of Engineering, Pune.
-          </div>
+            <ArrowRight className="icon"/>
+            <div className="content">
+            <h3>B.Tech Final year student | Electronics and Telecommunication </h3>
+            <h4>| {'      '} Mksss Cummins College of Engineering </h4>
+            <h4>| CGPA : 8.3</h4>
+            </div>
+          </div> 
           </div>
 
         <div className="container2">
           <div className="wrapper">
-            <ArrowRight className="icon"/>I have good knowledge of Data structures and Algorithms. I enjoy Applying my knowledge of data structures and algorithms in solving real life problems.
+            <ArrowRight className="icon"/>
+            <div className="content">
+             <h3>My area of interest : </h3>
+             <h4>| {'     '}Data Structure and Algorithms</h4>
+             <h4>| {'     '}Frontend Developver</h4>
+             </div>
           </div>
         </div>
 
+        
+        
         <div className="container3">
+        <img src="assets\pie.png" alt=""/>
+        </div>
+        {/* <div className="container3">
         <div className="wrapper">
            <ArrowRight className="icon"/>I am a Front End Developer who focuses on writing clean, elegant and efficient code.
         </div>
-        </div>
+        </div> */}
 
-        <div className="container4">
+        {/* <div className="container4">
         <div className="wrapper">
-           <ArrowRight className="icon"/>I am passionate about creating interactive applications and experiences on the web.
+           <ArrowRight className="icon"/><h5>passionate about creating interactive applications and better user experiences on the web.</h5>
         </div>
-        </div> 
+        </div>  */}
 
-        <div className="container5">
+        {/* <div className="container5">
         <div className="wrapper">
            <ArrowRight className="icon"/>I have knowledge of:
         </div>
-        </div> 
+        </div>  */}
         
-        <div className="skills">
+        {/* <div className="skills">
         <div className="dsa">
           <button>C++</button>
         </div>
@@ -50,7 +65,7 @@ export default function about() {
            <button>JS</button>
            <button>React JS</button>
         </div>
-        </div>
+        </div> */}
 
     </div>
   )

@@ -5,7 +5,7 @@
     justify-content: center;
     position: relative;
    // margin-top: 80px;
-
+    
     .arrow{
         height: 100px;
         position: absolute;
@@ -26,6 +26,7 @@
         display: flex;
         position: absolute;
         left: 0;
+       
         
         .container{
             width: 100vw;
@@ -36,7 +37,7 @@
             &::-webkit-scrollbar{    //to hide the scroll bar
                 display: none;
             }
-        }
+        
         .item{
             width:700px;
             height:100%;
@@ -108,4 +109,5 @@
             }
         }
     }
+}
 }
